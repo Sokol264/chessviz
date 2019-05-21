@@ -1,5 +1,4 @@
-*.o
-*.main.c.swp
-*main.cpp
-*main
-*.clang-format
+build/*
+bin/*
+*.swp
+*.txt
