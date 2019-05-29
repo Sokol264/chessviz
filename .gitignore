@@ -2,3 +2,4 @@ build/*
 bin/*
 *.swp
 *.txt
+build-test/*
