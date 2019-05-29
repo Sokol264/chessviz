@@ -43,3 +43,6 @@ test/figures.o: src/figures.c
 
 clean:
 	rm build/*
+clean-test:
+	rm test/*.d
+	rm test/*.o
