@@ -25,7 +25,7 @@ build/cmove.o: src/cmove.c
 build/figures.o: src/figures.c
 	$(COMPILER) $(FLAGS) -MMD -c -o $@ $<
 
-	-include test/*.d
+-include test/*.d
 
 bin/main-test: build-test/main.o build-test/figures.o build-test/test.o
 	$(COMPILER) $(FLAGS) -o $@ $^
@@ -43,5 +43,6 @@ build-test/figures.o: src/figures.c
 
 clean:
 	rm build/*
+
 clean-test:
 	rm build-test/*
